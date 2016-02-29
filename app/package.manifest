@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "name": "Reloj SVG",
+  "package_path": "http://reloj-svg.andresmorenostudio.com/package.zip",
+  "developer": {
+    "name": "Andrés Moreno",
+    "url": "http://www.andresmorenostudio.com"
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clock SVG | Andrés Moreno</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2" />
+	<link type="text/css" media="screen" href="css/reloj-svg.css"  rel="stylesheet" />
+</head>
+<body>
+	<header>
+		<h1>Clock SVG by Andrés Moreno</h1>
+		<div>
+			<h2 id="dia">lun 1 enero 1970</h2>
+		</div>		
+	</header>
+	<main>
+		<div>
+	 		<svg id="reloj" viewBox="25 25 110 110" height="400" width="400" xmlns="http://www.w3.org/2000/svg">
+				<defs id="defs9">
+				  <filter id="filter825" style="color-interpolation-filters:sRGB;"
+					inkscape:label="Drop Shadow">
+				    <feFlood id="feFlood827" flood-opacity="0.2"
+					flood-color="rgb(2,2,2)" result="flood" />
+				    <feComposite id="feComposite829" in2="SourceGraphic" in="flood"
+					operator="in" result="composite1" />
+				    <feGaussianBlur id="feGaussianBlur831" in="composite1"
+					stdDeviation="1" result="blur" />
+				    <feOffset id="feOffset833" dx="1" dy="1" result="offset" />
+				    <feComposite id="feComposite835" in2="offset" in="SourceGraphic"
+					operator="over" result="composite2" />
+				  </filter>
+				</defs>	 		
+				<circle id="esfera" cx="80" cy="80" r="50" style="stroke:#FFF; stroke-width:2; stroke-opacity:1;filter:url(#filter825);fill:none"/>
+				<line id="hour" x1="80" y1="80" x2="80" y2="50" style="stroke:#FFF;stroke-width:2;" stroke-linecap="round"/>
+				<line id="minutes" x1="80" y1="80" x2="80" y2="40" style="stroke:#FFFFFF;stroke-width:2;" stroke-linecap="round"/>
+				<line id="seconds" x1="80" y1="80" x2="80" y2="40"	style="stroke:#C10000;stroke-width:1;" stroke-linecap="round"/>
+			</svg>
+		</div>
+	</main>
+	<footer>
+		<p><a href="http://www.andresmorenostudio.com">&copy; Andrés Moreno</a></p>
+		<p><a href="app">Install in Firefox OS</a></p>
+	</footer>
+<!-- Libreria Zepto - JQuery -->
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/reloj-svg.js" defer></script>
+</body>
+</html>

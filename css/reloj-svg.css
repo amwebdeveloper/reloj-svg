@@ -1,0 +1,57 @@
+font-face {
+	font-family: 'Ubuntu';
+	font-weight: normal;
+	font-style: normal;	
+	src: url('../fonts/Ubuntu-R.ttf') format('truetype');
+}
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	font-family: Ubuntu;
+	text-shadow: 1px 1px 1px #222;
+	background: linear-gradient(135deg, #2f7758 0%, #2F5877 70%, #2f7758 100%);
+}
+header, main, footer {
+	position: relative;
+	padding: 1em;
+	text-align: center;
+}
+h1,h2 {
+	font-weight: normal;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: skyblue;
+}
+svg {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	max-height: 30em;
+	z-index: 1;
+	margin: 0;
+	padding: 0;
+}
+line {
+	box-shadow: 1px 1px 1px #222 !important;
+}
+#hora-analogica {
+	position:relative;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	z-index: 0;
+	font-weight: bold;
+	color: #FFF;
+}
